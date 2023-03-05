@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;500;600;700;900&family=Roboto+Slab:wght@400;500&display=swap');
+
+
+body{
+    font-family: "Inter",sans-serif;
+    color:#343a40;
+    line-height: 1;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    transform: scale(1.8);
+    border-radius: inherit;
+    box-shadow: 0 12px 24px rgb(0, 0, 0,0.1);
+}
+
+.caraousal{
+
+    position: relative;
+
+    background: #087f5b;
+    width: 800px;
+    margin:100px auto;
+    border-radius:8px;
+    color:#fff;
+    padding:32px;
+    padding-left: 120px;
+
+    display: flex;
+    align-items: center;
+    gap: 86px;
+}
+
+.testimonial-text{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-bottom:32px;
+    color: #e6fcf5;
+}
+.testimonial-author{
+    font-size: 14px;
+    margin-bottom:4px;
+    color:#c3fae8;
+}
+.tesimonial-job{
+    font-size: 12px;
+}
+
+.btn{
+    background-color: #fff;
+    border: none;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    position: absolute;
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    transform: translate(-50%,-50%);
+    box-shadow: 0 0 24px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+btn:hover{
+    color:rgba(0, 0, 0, 0.3)
+}
+
+.btn-icon{
+    height: 24px;
+    width: 24px;
+}
+
+.btn__left{
+left:0;
+top:50%;
+transform: translate(-50%,-50%);
+}
+
+.btn__right{
+    right: 0;
+    top:50%;
+    transform: translate(50%,-50%);
+}
+
